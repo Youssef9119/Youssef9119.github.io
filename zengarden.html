@@ -1,43 +1,66 @@
 <h1 class="h11">CSS ZENGARDEN</h1>
 <h2 class="h21">Una sfida a colpi di colori</h2>
 <p class="p1">Solo i veri sigma saranno in grado di rendere questa pagina bellissima</p>
-<h3 class="h31">John von Neumann</h3>
+<div class="contenitore">
+  <i>lo scienziato </i>
+  <br />
+  <h3 class="h31">John von Neumann</h3>
+  <i>è</i>
+  <br />
+
+</div>
 <p class="p2">È generalmente considerato come uno dei più grandi matematici
   della storia moderna e una delle personalità scientifiche preminenti del XX secolo.
   A lui si devono contributi fondamentali in numerosi campi della conoscenza come la
   <span class="grassetto">teoria degli insiemi</span>, <span class="grassetto">analisi funzionale</span>,
-  <span class="corsivo">topologia</span>, <span class="corsivo">fisica quantistica</span>, economia, informatica, 
-  teoria dei giochi, fluidodinamica e in molti altri settori della matematica.</p>
+  <span class="corsivo">topologia</span>, <span class="corsivo">fisica quantistica</span>, economia, informatica,
+  teoria dei giochi, fluidodinamica e in molti altri settori della matematica.
+</p>
+
 <style>
-  .h11{
-    color:#3d3d5c;
-    font-style:bold;
-    font-size:65px;
+  .h11 {
+    color: #3d3d5c;
+    font-style: bold;
+    font-size: 65px;
   }
-  .h21{
-    font-style:italic;
-    font-family:serif;
+
+  .h21 {
+    font-style: italic;
+    font-family: serif;
   }
-  .p1{
-    color:blue;
-    font-weight:bold;
-    font-family:serif;
-    font-size:20px;
+
+  .p1 {
+    color: blue;
+    font-weight: bold;
+    font-family: serif;
+    font-size: 20px;
+
   }
-  .p2{
-    font-style:normal;
-    font-weight:bold;
-    font-size:20px;
+
+  .p2:hover {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
   }
+
   body {
-    background-color:#99ccff; 
-}
-.h31{
- font-size:25px;
- text-decoration:underline; 
-  color:#516b74;
-}
+    background-color: #99ccff;
+  }
 
-  
+  .h31 {
+    font-size: 25px;
+    text-decoration: underline;
+    color: #516b74;
+    display: none;
 
+  }
+
+  .contenitore:hover {
+    background-color: cadetblue;
+  }
+
+  .contenitore:hover .h31 {
+    display: inline;
+    background-color: rgb(0, 255, 191);
+  }
 </style>
